@@ -34,7 +34,7 @@ class Choice(models.Model):
 
 
 class PollUser(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    user = models.OneToOneField(User, on_delete=models.CASCADE)git 
     country = models.CharField(max_length=30)
 
     def __str__(self):
