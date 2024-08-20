@@ -1,4 +1,3 @@
 .idea
 db.sqlite3
-./polls/__pycache__/
-.gitignore
+polls/__pycache__/
